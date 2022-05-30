@@ -2,6 +2,7 @@
 
 > KeePass est un coffre-fort de mots de passe, il permet de chiffrer et déchiffrer une base de données (un fichier `.kdbx`), et de le protéger par un seul **Mot de Passe Maître**. Il permet de générer des mots de passe forts et systématiquement différents pour tous les services Web auxquels vous vous inscrirez. KeePass est **le** logiciel recommandé par l'[ANNSI](https://www.annsi.org/) (l'Agence nationale de la sécurité des systèmes d'information).
 
+
 ## Téléchargez et installez KeePass
 
 - Dans la barre d'adresse de votre navigateur Microsoft Edge, tapez `https://keepass.info/download.html` :
@@ -18,9 +19,10 @@
 
 - Acceptez que KeePass recherche automatiquement des mises-à-jour : 
 
-## Configurez KeePass
-
 ![](screenshots/04.png)
+
+
+## Configurez KeePass
 
 - Dans votre répertoire `OneDrive`, à la racine (au même niveau que les dossiers `Documents` et `Images`), créez un nouveau dossier que vous nommerez « `DB-PSWD` » :
 
@@ -52,6 +54,7 @@
 
 ![](screenshots/12.png)
 
+
 ## Sauvegardez vos mots de passe
 
 - Créez une nouvelle entrée : 
@@ -68,13 +71,16 @@
 
 - 🎉 C'est réussi ! Il ne vous reste plus qu'à l'utiliser au quotidien. Quand on s'y met sérieusement, on ne peut plus s'en passer ! Mais c'est surtout une recommandation de sécurité, et ce type de pratiques fait partie des prérequis de base pour un professionnel du développement Web !
 
+> Un *tips* pratique : sur une interface d'identification web quelconque correspondant à une entrée dans KeePass, placez votre curseur dans « nom d'utilisateur », retournez dans KeePass, cliquez sur le service Web auquel vous souhaitez vous connecter, et cliquez sur `Perform Auto-Type (Ctrl+V)` : 
+
 ![](screenshots/15.png)
+
 
 ## [Pour aller plus loin] Cachez votre répertoire contenant votre base de données
 
 > Lorsque vous avez ouvert votre base de données `.kdbx` avec KeePass, l'application sait où la retrouver. Inutile de complexifier votre environnement avec des fichiers avec lesquels vous n'interragirez pas directement, puisque seule une application les exploite.
 
-- Faites un clic droit > Propriétés sur le répertoire `DB-PSWD` :
+- Faites un clic droit > `Propriétés` sur le répertoire `DB-PSWD` :
 
 ![](screenshots/16.png)
 
